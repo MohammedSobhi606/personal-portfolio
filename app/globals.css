@@ -5,11 +5,16 @@
   --foreground: #171717;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +24,30 @@
   }
 }
 
+
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.mycontainer {
+  @apply px-4 sm:px-6 md:px-24 lg:px-24 xl:px-48 2xl:px-96 sm:pl-24
+}
+
+.mainTiltle {
+  @apply text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl
+}
+
+.headerSections {
+  @apply text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl
+}
+
+.subsection {
+  @apply text-xl sm:text-2xl lg:text-3xl 2xl:text-3xl
+}
+
+.bodyText {
+  @apply text-base sm:text-base lg:text-lg 2xl:text-lg
 }

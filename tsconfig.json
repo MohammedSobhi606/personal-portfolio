@@ -22,6 +22,17 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "assets/index.js",
+    "components/Reviews.jsx",
+    "components/Projects.jsx",
+    "components/sub/SingleQues.jsx",
+    "components/ContactForm.jsx",
+    "components/sub/ToogleButton.tsx"
+  ],
   "exclude": ["node_modules"]
 }
