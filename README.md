@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Mohammed Sobhi's Portfolio
+Welcome to my personal portfolio, a showcase of my skills as a frontend developer specializing in modern web technologies. This project demonstrates my expertise in building responsive, animated, and multilingual web applications using Next.js, Tailwind CSS, and Framer Motion. Explore the live site at mohammed-sobhi.netlify.app.
+Table of Contents
 
-## Getting Started
+About
+Features
+Technologies
+Setup
+Usage
+Deployment
+Contact
 
-First, run the development server:
+About
+This portfolio highlights my work as a frontend developer with experience in the MERN stack, e-commerce platforms, and blog applications. Designed to impress potential clients and employers, it features a clean, responsive interface with smooth animations, a dark theme toggle, and multilingual support (English, Arabic, Spanish). The site is deployed on Netlify for fast, reliable performance.
+Key projects include:
 
-```bash
+Portfolio: A dynamic showcase of my work with animated project cards.
+E-Commerce App: An online store with Stripe integration and MongoDB backend.
+Blog App: A MERN-based platform for posts and comments with Redux state management.
+
+Features
+
+Responsive Design: Fully mobile-friendly layout using Tailwind CSS grid and responsive typography (text-base sm:text-lg, text-xl sm:text-2xl).
+Dark Theme: Toggleable light/dark mode with localStorage persistence, styled with Tailwind’s dark: variants.
+Multilingual Support: Supports English, Arabic (RTL), and Spanish using next-intl, with a sleek language switcher.
+Animations: Smooth fade-in and stagger effects for project cards using Framer Motion’s staggerChildren.
+Clean Code: Modular Next.js structure with TypeScript for type safety (e.g., Data interface for project cards).
+Contact Integration: Telegram link (@moha2000yahoo) for direct communication.
+SEO Optimized: Proper meta tags and locale-based routing (/en, /ar, /es) for global accessibility.
+
+Technologies
+
+Frontend: Next.js 14 (App Router), React 19, Tailwind CSS, Framer Motion
+Internationalization: next-intl for multilingual support
+Type Safety: TypeScript
+Deployment: Netlify
+Other: localStorage for theme/language persistence, Vercel (optional for local testing)
+
+Setup
+To run this portfolio locally, follow these steps:
+Prerequisites
+
+Node.js (v18 or higher)
+npm or yarn
+
+Installation
+
+Clone the repository:git clone https://github.com/your-username/your-repo.git
+cd your-repo
+
+
+Install dependencies:npm install
+
+
+Create a .env.local file (if needed for API keys, e.g., MERN backend):NEXT_PUBLIC_API_URL=http://your-api
+
+
+Add translation files in messages/ (e.g., en.json, ar.json, es.json) for multilingual support.
+
+Running Locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000/en to view the site.
+Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Toggle Theme: Click the theme switcher in the header to switch between light and dark modes.
+Change Language: Use the language switcher to select English, Arabic, or Spanish (Arabic uses RTL).
+Explore Projects: View project cards with animated hover and fade-in effects, showcasing my work.
+Contact Me: Click the Telegram link (@moha2000yahoo) to connect directly.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deployment
+The portfolio is deployed on Netlify at mohammed-sobhi.netlify.app. To deploy your own version:
 
-## Learn More
+Push the repository to GitHub.
+Connect to Netlify via the Netlify dashboard.
+Set build settings:
+Build command: npm run build
+Publish directory: .next
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Configure environment variables (if any) in Netlify’s dashboard.
+Deploy, and Netlify will handle automatic scaling and HTTPS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contact
+I’m available for freelance opportunities and collaborations. Reach out via:
 
-## Deploy on Vercel
+Telegram: @moha2000yahoo
+Email: your-email@example.com
+Portfolio: mohammed-sobhi.netlify.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to explore the code, suggest improvements, or contact me to discuss your next project!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with 💻 by Mohammed Sobhi
