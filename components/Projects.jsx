@@ -48,7 +48,7 @@ export default function Projects() {
         ))}
       </div>
       {/* projects */}
-      <div className=" grid w-full grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 xl:grid-cols-3">
+      <div className=" grid w-full grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 ">
         {}
         {tech === "All"
           ? projectsData.map((data, i) => (

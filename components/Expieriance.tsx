@@ -107,7 +107,8 @@ max-lg:hidden
           style={{
             scaleY: scrolY,
           }}
-          className="absolute w-1 h-full  -translate-x-1/2  rounded-full bg-gray-300
+          className="absolute w-1 h-full  -translate-x-1/2  rounded-full hidden
+          dark:block
           dark:bg-white z-0 origin-top "
         ></motion.div>
       </div>

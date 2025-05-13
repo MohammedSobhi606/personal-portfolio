@@ -8,9 +8,11 @@ interface Data {
   url: string;
   desc: string;
   tech: (string | undefined)[];
+  deploy: string;
+  git: string;
 }
 export default function ProjectCard({
-  data: { desc, name, tech, url },
+  data: { desc, name, tech, url, deploy, git },
   index,
 }: {
   data: Data;
@@ -23,7 +25,7 @@ export default function ProjectCard({
         alt="image"
         width={500}
         height={400}
-        className="w-full object-cover duration-700 ease-in-out scale-100 blur-0"
+        className="w-full aspect-[16/9] object-cover duration-700 ease-in-out scale-100 blur-0"
       />
       {/* data */}
       <div className=" border-t border-stone-200 px-5 py-8 dark:border-stone-700 dark:bg-zinc-900 ">
@@ -36,10 +38,10 @@ export default function ProjectCard({
       </div>
       {/* links */}
       <div className="flex  justify-around items-center w-full md:p-2 border-t border-stone-200 dark:border-stone-700 dark:bg-zinc-700 dark:text-white">
-        <a href="">
+        <a href={`${git}`}>
           <Git className="size-9 hover:text-amber-400 transition-all hover:-translate-y-1 active:translate-0" />
         </a>
-        <a href="">
+        <a href={`${deploy}`}>
           <ExternalLink className="size-9 hover:text-amber-400 transition-all hover:-translate-y-1 active:translate-0" />
         </a>
       </div>

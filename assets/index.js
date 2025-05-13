@@ -199,64 +199,148 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    name: 'SparkleGrove.com',
-    desc: 'A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.',
-    url: '/projects/image-1.jpg',
+    name: 'Library Theme',
+    desc: 'A Library theme to efficiently display books.',
+    url: '/projects/1.png',
     tech: ['Figma', 'Photoshop', 'HTML'],
+    deploy: 'https://library112.netlify.app/',
+    git: 'https://github.com/MohammedSobhi606/library-app'
   },
   {
-    name: 'TechTrekker.net',
-    desc: 'A technology news and review site covering the latest gadgets, software updates, and trends in the tech industry.',
-    url: '/projects/image-2.jpg',
-    tech: ['Figma', 'Photoshop'],
+    name: 'Potfolio landing page',
+    desc: 'A Potfolio landing page.',
+    url: '/projects/2.png',
+    tech: ['Figma', 'css'],
+    deploy: 'https://animatedportfolio9.netlify.app/',
+    git: 'https://github.com/MohammedSobhi606/animated-potfolio'
   },
   {
-    name: 'CozyNestHomes.org',
-    desc: 'A resource for homeowners and renters alike, offering tips on interior design, home improvement projects, and sustainable living practices.',
-    url: '/projects/image-3.jpg',
-    tech: ['HTML', 'CSS', 'JavaScript'],
+    name: 'Buillder Ai',
+    desc: 'An Ai Resume builder ,create your own cv with tons of features .',
+    url: '/projects/3.png',
+    tech: ['HTML', 'CSS', 'React'],
+    deploy: 'https://resume-builder-brown-three.vercel.app/',
+    git: 'https://github.com/MohammedSobhi606/resume-builder'
   },
   {
-    name: 'WanderLuxeTravels.co',
-    desc: 'A travel website that provides luxury travel guides, destination reviews, and tips for planning unforgettable vacations.',
-    url: '/projects/image-4.jpg',
+    name: 'Bambo landing page',
+    desc: 'A landing page to showcase a power of specific product ',
+    url: '/projects/4.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'TailwindCSS'],
+    deploy: 'https://bambo1.netlify.app/',
+    git: 'https://github.com/MohammedSobhi606/animated-landing',
   },
   {
-    name: 'ByteBoosters.io',
-    desc: 'A tech startup specializing in software development, offering innovative solutions and services for businesses looking to enhance their digital presence.',
-    url: '/projects/image-5.jpg',
+    name: 'Quizzy👏',
+    desc: 'A dynamic quiz builder application built with Next.js, allowing users to create, customize, and share interactive quizzes.',
+    url: '/projects/5.png',
     tech: ['Figma', 'ReactJS', 'TailwindCSS', 'CSS'],
+    deploy: 'https://quizziy-hctssew5c-mohammedsobhi606s-projects.vercel.app/',
+    git: 'https://github.com/MohammedSobhi606/quizziy'
   },
   {
-    name: 'GreenLeafGardens.biz',
-    desc: 'An online store and community hub for gardening enthusiasts, featuring a wide range of plants, gardening tools, and expert advice.',
-    url: '/projects/image-6.jpg',
-    tech: ['ReactJS', 'TailwindCSS', , 'CSS', 'FramerMotion'],
+    name: 'clip path hover effect',
+    desc: 'its a nice animated hoverd section to display some tools with impressive technique using just html,css and slight javascript',
+    url: '/projects/6.png',
+    tech: ['CSS'],
+    deploy: 'https://mohammedsobhi606.github.io/hover-clipPath/'
+    , git: 'https://github.com/MohammedSobhi606/hover-clipPath'
   },
   {
-    name: 'PixelPerfectDesigns.info',
-    desc: 'A graphic design portfolio showcasing the work of a freelance designer, including branding, web design, and illustration projects.',
-    url: '/projects/image-7.jpg',
-    tech: ['NextJS', 'FramerMotion'],
+    name: 'Landing page',
+    desc: 'A portfolio landing page ,custom & creative',
+    url: '/projects/7.png',
+    tech: ['CSS', 'FramerMotion'],
+    deploy: 'https://mohammedsobhi606.github.io/simple-portfolio/',
+    git: 'https://github.com/MohammedSobhi606/simple-portfolio/'
   },
   {
-    name: 'HarmonyHealthHub.com',
-    desc: ' A wellness website focused on holistic health, offering articles on nutrition, fitness, mental health, and alternative therapies.',
-    url: '/projects/image-8.jpg',
-    tech: ['NextJS', 'ReactJS', 'FramerMotion'],
+    name: 'kasper landing page',
+    desc: ' A kasper landing page.',
+    url: '/projects/8.png',
+    tech: ['CSS'],
+    deploy: 'https://mohammedsobhi606.github.io/template_2.1/',
+    git: 'https://github.com/MohammedSobhi606/template_2.1'
   },
   {
-    name: 'StellarSkie.org',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-    url: '/projects/image-9.jpg',
-    tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
+    name: 'landing page',
+    desc: 'An elegant landing page',
+    url: '/projects/9.png',
+    tech: ['CSS'],
+    deploy: 'https://mohammedsobhi606.github.io/template_2.1/',
+    git: 'https://github.com/MohammedSobhi606/template_2.1/'
   },
   {
-    name: 'UrbanEatsDelights.com',
-    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
-    url: '/projects/image-10.jpg',
-    tech: ['NextJS', 'ThreeJS'],
+    name: 'Electronic-Medical-Record',
+    desc: 'An web app to save patient data and vitals as temp,blood pressure ... etc .',
+    url: '/projects/10.png',
+    tech: ['JavaScript'],
+    deploy: 'https://mohammedsobhi606.github.io/Electronic-Medical-Record/'
+    , git: 'https://github.com/MohammedSobhi606/Electronic-Medical-Record/'
+  },
+  {
+    name: 'Forever E-commerce',
+    desc: 'An E-commerce website with all features.',
+    url: '/projects/11.png',
+    tech: ['JavaScript', 'ReactJS', 'TailwindCSS'],
+    deploy: 'https://great-e-commercefront.vercel.app/'
+    , git: 'https://github.com/MohammedSobhi606/great_e-Commerce/'
+  },
+  {
+    name: 'Nike landing page',
+    desc: 'Nike landing page.',
+    url: '/projects/13.png',
+    tech: ['TailwindCSS'],
+    deploy: 'https://el-sahar-nike.netlify.app/'
+    , git: 'https://github.com/MohammedSobhi606/Adrian.tailwind'
+  },
+  {
+    name: 'tic tac to game',
+    desc: 'tic tac to game.',
+    url: '/projects/12.png',
+    tech: ['JavaScript'],
+    deploy: 'https://el-sahar-xo.netlify.app/'
+    , git: 'https://github.com/MohammedSobhi606/tic-tac'
+  },
+  {
+    name: 'to do app',
+    desc: 'to do app with drage & drop.',
+    url: '/projects/14.png',
+    tech: ['ReactJS', 'TailwindCSS',],
+    deploy: 'https://el-sahar2do-app.netlify.app/'
+    , git: 'https://github.com/MohammedSobhi606/advanced-to-do-app'
+  },
+  {
+    name: 'Portfolio landing page',
+    desc: 'Portfolio landing page .',
+    url: '/projects/15.png',
+    tech: ['CSS'],
+    deploy: 'https://mohammedsobhi606.github.io/Portofolio/'
+    , git: 'https://mohammedsobhi606.github.io/Portofolio/'
+  },
+  {
+    name: 'bloggaty🎉',
+    desc: 'A full-stack blog application built with the MERN stack, designed to allow users to create, read, update, and delete blog posts, with features like user authentication and commenting.',
+    url: '/projects/17.png',
+    tech: ['ReactJS', 'TailwindCSS',],
+    deploy: 'https://github.com/MohammedSobhi606/bloger-Updated'
+    , git: 'https://github.com/MohammedSobhi606/bloger-Updated'
+  },
+  {
+    name: 'jobby',
+    desc: 'post a new job with only access for adminsprovide advanced search to get specific job using our filters and search text feature',
+    url: '/projects/18.png',
+    tech: ['NextJS'],
+    deploy: 'https://github.com/MohammedSobhi606/job-portal'
+    , git: 'https://github.com/MohammedSobhi606/job-portal'
+  },
+  {
+    name: 'Bestseller',
+    desc: 'An e-commerce ',
+    url: '/projects/19.png',
+    tech: ['NextJS'],
+    deploy: 'https://github.com/MohammedSobhi606/nextcomm'
+    , git: 'https://github.com/MohammedSobhi606/nextcomm'
   },
 ]
 
