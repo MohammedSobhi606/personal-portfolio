@@ -31,7 +31,7 @@ export default function Expieriance() {
         {experienceData.map((item, i) => (
           <div
             key={i}
-            className={`w-full relative lg:w-[460px] z-10 ${
+            className={`w-full relative lg:w-[460px] z-30 ${
               i % 2 === 0 ? " lg:-left-[290px] " : "lg:left-[290px]"
             }   `}
           >
