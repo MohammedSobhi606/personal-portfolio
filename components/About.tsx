@@ -27,14 +27,7 @@ export default function About() {
           <p className=" font-light text-gray-700 first-letter:pl-3 bodyText dark:text-white">
             {aboutText}
           </p>
-          <a
-            href="/public/nick-cv.pdf"
-            download={""}
-            className="w-max flex items-center space-x-2 mt-6 rounded-full border border-gray-300 bg-red-400 px-3 py-2 font-light text-white hover:bg-red-500 transition-colors"
-          >
-            <span>Download Cv</span>
-            <span>{downloadIcon}</span>
-          </a>
+         
         </div>
       </div>
       {/* achivments section [git hub + clients] */}
